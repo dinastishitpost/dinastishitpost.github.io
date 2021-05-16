@@ -60,9 +60,33 @@ body {
   background-color: rgba(134, 134, 134, 1);
 }
 
+.modal,
+.modal a {
+  font-family: "fira code", monospace;
+}
+
+footer {
+  font-family: "fira code", monospace;
+  font-size: 0.8rem;
+  margin-top: 12em;
+  text-align: center;
+}
+
+.link-footer {
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+}
+.link-footer:hover {
+  color: rgb(41, 41, 41);
+}
+
 @media (max-width: 767px) {
   .menu > .items {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  footer {
+    margin-bottom: 4em;
   }
 }
 
@@ -94,5 +118,12 @@ body {
     background: transparent
       url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23eeeeee'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e")
       center/1em auto no-repeat;
+  }
+
+  .link-footer {
+    color: rgb(184, 184, 184);
+  }
+  .link-footer:hover {
+    color: rgb(216, 216, 216);
   }
 }
