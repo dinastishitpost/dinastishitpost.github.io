@@ -31,6 +31,7 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 25px;
+  text-decoration: none;
 
   /* flex */
   display: flex;
@@ -39,12 +40,16 @@ body {
   transition: background-color ease-in-out 0.3s;
 }
 
-.item:nth-child(even) {
-  background-color: rgba(134, 134, 134, 0.4);
+.btn-discord {
+  background-color: #5865f2;
 }
 
-.item > a {
-  text-decoration: none;
+.btn-discord.disabled {
+  background-color: #9ea5f7;
+}
+
+.item:nth-child(even) {
+  background-color: rgba(134, 134, 134, 0.4);
 }
 
 .item:hover {
