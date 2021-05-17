@@ -80,6 +80,17 @@ footer {
   color: rgb(41, 41, 41);
 }
 
+.fix-alert {
+  position: absolute;
+  bottom: 15px;
+  width: 100vw;
+  padding: 0 4em;
+}
+
+.fix-alert .btn-close {
+  float: right;
+}
+
 @media (max-width: 767px) {
   .menu > .items {
     grid-template-columns: repeat(3, 1fr);
@@ -88,11 +99,18 @@ footer {
   footer {
     margin-bottom: 4em;
   }
+  .fix-alert {
+    padding: 0 2em;
+  }
 }
 
 @media (max-width: 575px) {
   .menu > .items {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fix-alert {
+    padding: 0 1em;
   }
 }
 
