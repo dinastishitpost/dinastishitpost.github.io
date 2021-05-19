@@ -49,8 +49,8 @@ document.addEventListener("click", e => {
       case "chat":
         changeModal(
           "Server Discord",
-          "Maaf, saat ini servernya lagi maintenance",
-          `<a href="/discord" target="_blank" class="btn btn-discord disabled" disabled rel="noopener noreferrer">Discord</a>`
+          "Tempat diskusi paling aman, saya rasa",
+          `<a href="/discord" target="_blank" class="btn btn-discord" rel="noopener noreferrer">Discord</a>`
         );
         break;
 
