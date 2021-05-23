@@ -58,7 +58,8 @@ document.addEventListener("click", e => {
         changeModal(
           "Dukung untuk bisa perpanjang domain ini",
           "Selisihkan uang anda untuk memberi makan billy dan memperpanjang domain ini",
-          `<a href="/donate" target="_blank" class="btn btn-success" rel="noopener noreferrer">Donate</a>`
+          `<a href="/donate" target="_blank" class="btn btn-success" rel="noopener noreferrer">Saweria</a>`
+          `<a href="/tribe" target="_blank" class="btn btn-discord" rel="noopener noreferrer">Sociabuzz</a>`
         );
         break;
     }
