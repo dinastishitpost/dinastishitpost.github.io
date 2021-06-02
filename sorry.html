@@ -30,34 +30,64 @@
       //window.location.replace("https://facebook.com/danyfpost");
     </script>
     <style>
-    	iframe, img {
-  /* override other styles to make responsive */
-  width: 100%    !important;
-  height: auto   !important;
-}
+      .video-container {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+      }
+
+      .video-container::after {
+        padding-top: 56.25%;
+        display: block;
+        content: "";
+      }
+
+      .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      @media (min-width: 720px) {
+        .video-container {
+          width: 28%;
+        }
+      }
     </style>
     <title>Permintaan Maaf</title>
   </head>
   <body>
     <h2>Maaf!</h2>
     <h4>
-      Kami dari pihak dinasi meminta maaf atas kejadian barusan yang dialami Gema Show Indo semoga tidak terjadi bekepanjangan buat selanjutnya
-    </h4>
-    <p><iframe src="https://www.youtube.com/embed/O2yPnnDfqpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
- <h4>
- Kami akan tunda kegiatan upload untuk beberapa saat. Dan video diatas menggambarkan situasi saat ini.
+      Kami dari pihak dinasi meminta maaf atas kejadian barusan yang dialami
+      Gema Show Indo semoga tidak terjadi bekepanjangan buat selanjutnya
     </h4>
     <br />
-    <img src="/img/confirm.jpg" alt=""/>
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/O2yPnnDfqpw"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
     <h4>
- Yang bersangkutan bersangkutan sudah menerima.
+      Kami akan tunda kegiatan upload untuk beberapa saat. Dan video diatas
+      menggambarkan situasi saat ini.
     </h4>
     <br />
-       <h2>
- Konteks
-    </h2>
-       <h4>
- Jadi, saya nemu sebuah foto di facebook yang singkatnya kesalahan Google Translate yang mengatakan YBS dukung LGHDTV+ (taulah maksudnya apa). Dan saya tidak tau kalau postingan sekecil ini bisa menyebabkan pembulian kepada keluarganya dia jadi saya hapus dengan cepat secepat SICEPAT.
+    <img src="/img/confirm.jpg" alt="" />
+    <h4>Yang bersangkutan bersangkutan sudah menerima.</h4>
+    <br />
+    <h2>Konteks</h2>
+    <h4>
+      Jadi, saya nemu sebuah foto di facebook yang singkatnya kesalahan Google
+      Translate yang mengatakan YBS dukung LGHDTV+ (taulah maksudnya apa). Dan
+      saya tidak tau kalau postingan sekecil ini bisa menyebabkan pembulian
+      kepada keluarganya dia jadi saya hapus dengan cepat secepat SICEPAT.
     </h4>
-    </body>
+  </body>
 </html>
