@@ -57,11 +57,11 @@ document.addEventListener("click", e => {
       case "pray":
         changeModal(
           "Dukung untuk bisa support dinasti ini",
-          `Donasi ini akan digunakan untuk:<br>
-          - Memperpanjang domain<br>
-          - Berlangganan bot server premium<br>
-          - Upgrade PC yang pas-pasan<br>
-          - Giveaway jika ada<br>`,
+          `Donasi ini akan digunakan untuk: <br />
+          - Memperpanjang domain <br />
+          - Berlangganan bot server premium <br />
+          - Upgrade PC yang pas-pasan <br />
+          - Giveaway jika ada`,
           `<a href="/donate" target="_blank" class="btn btn-success" rel="noopener noreferrer">Saweria</a> <a href="/tribe" target="_blank" class="btn btn-discord" rel="noopener noreferrer">Sociabuzz</a>`
         );
         break;
